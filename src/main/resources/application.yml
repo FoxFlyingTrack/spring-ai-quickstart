@@ -14,3 +14,12 @@ spring:
 
 server:
   port: 9001
+
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
