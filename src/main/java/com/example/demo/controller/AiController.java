@@ -24,8 +24,10 @@ import java.util.stream.Collectors;
  * 2. 结构化输出 (Structured Output)
  * 3. 流式输出 (Streaming)
  * 4. 不同配置的 ChatClient
+ * 5. Tool Calling (函数调用)
  *
  * 官方文档: https://docs.spring.io/spring-ai/reference/api/chatclient.html
+ * Tool Calling: https://docs.spring.io/spring-ai/reference/api/tools.html
  */
 @RestController
 @RequestMapping("/ai")
