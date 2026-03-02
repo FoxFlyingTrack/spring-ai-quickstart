@@ -60,6 +60,18 @@
             <artifactId>spring-ai-starter-model-openai</artifactId>
         </dependency>
 
+        <!-- RAG: 向量存储 -->
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-vector-store</artifactId>
+        </dependency>
+
+        <!-- RAG: 向量存储 Advisors -->
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-advisors-vector-store</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
